@@ -16,11 +16,12 @@ For practice exercises, provide step-by-step solutions with explanations to help
 
 When executing practise exams:
 1. Copilot must always randomise question order for every exam session. Do not ask the user for confirmation; randomise by default.
-2. Do not change the original question number, regardless of the order presented. Instead, add a counter after the question to indicate its position in the current exam session (e.g., Question 3 of 50).
+2. Add a counter after the question number to indicate its position in the current exam session e.g. (3 of 50). Do not change the original question number, regardless of the order presented. 
 3. Do not repeat any questions within the same exam session. 
 4. Do not provide any hints or solutions or ask the user to reconsider their answer until the exam is complete. Simply confirm receipt of the question and proceed with the exam.
-5. Always overwrite the existing user answers .txt file with the latest answers after each exam session has ended. Do not write answers every time the user answers a question. For consistency, force all answers to upper case letters (A, B, C, D, TRUE, FALSE).
-6. After the user has completed all questions, provide a summary of their performance, including the number of correct and incorrect answers and also represent the score as a percentage.
+5. After each question, DO NOT update the todo list. DO NOT provide a progress update. DO NOT use the todo list for progress updates. These are disruptive to the user experience. Only record the answer silently and move to the next question.
+6. After the user has completed all questions, always delete then create again the existing user answers .txt file with the latest answers. Do not write answers to the file every time the user answers a question. For consistency, force all answers to upper case letters (A, B, C, D, TRUE, FALSE).
+7. After the user has completed all questions, provide a summary of their performance, including the number of correct and incorrect answers and also represent the score as a percentage.
 7. If the user gets any questions wrong, only at the end of the exam, highlight the questions, chosen (wrong) vs correct answers e.g. 
 "
 Your answer: A ([wrong_answer])

@@ -1,0 +1,38 @@
+Practice Test 4 — Emerging Features (interactive session)
+Session date: 2026-02-09
+
+Final recorded answers (original question number):
+13: D
+24: B
+2: C
+17: B
+10: B
+7: C
+12: B
+6: B
+4: C
+1: B
+19: A
+16: B
+3: D
+25: C
+8: A
+11: A
+18: C
+21: B
+5: B
+9: C
+22: B
+23: B
+14: C
+20: B
+15: B
+
+
+Score: 23/25 (92%) — Excellent! You demonstrate mastery of emerging features.
+
+Incorrect questions (chosen -> correct) with brief explanations:
+- Q8: A -> C: Personal custom instructions are configured in your GitHub profile settings.
+- Q19: A -> C: Enabling the Copilot Coding Agent requires a configuration file and proper labels.
+
+Notes: Answers are uppercase and the file was overwritten per exam instructions.
